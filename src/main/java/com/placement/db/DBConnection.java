@@ -15,7 +15,7 @@ public class DBConnection {
             con = DriverManager.getConnection(
                 "jdbc:mysql://localhost:3306/placement_system",
                 "root",
-                "your_password",
+                "your_password"
             );
 
             System.out.println("✅ Connected to placement_system DB");
